@@ -1,0 +1,39 @@
+.header {
+    background: #dcdc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__input {
+  width: 250px;
+  height: 20px;
+}
+
+.header__boton{
+  width: 100px;
+  height: 25px;   
+}
+
+.header__icono{
+    position: absolute;
+    right: 33rem;
+    opacity: .5;
+}
+
+@media screen and (max-width: 768px){ 
+  .header{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header__input, .header__boton {
+    margin-bottom: 1rem;
+  }
+  
+  .header__icono{
+  display: none;}
+}
+
+
