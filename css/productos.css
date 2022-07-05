@@ -96,6 +96,8 @@
       margin-right: 0;
   }
 
-  @media screen and (min-width: 768px) { 
-    
-  }
+  @media screen and (max-width:480px) {   
+ .productos__card {
+    display: contents;
+ }
+}

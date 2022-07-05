@@ -17,23 +17,36 @@
 }
 
 .header__icono{
-    position: absolute;
+    /* position: absolute;
     right: 33rem;
-    opacity: .5;
+    opacity: .5; */
+    display: none;
 }
 
-@media screen and (max-width: 768px){ 
-  .header{
-    flex-direction: column;
-    width: 100%;
-  }
-
+@media screen and (max-width: 480px){
+	.header {
+		flex-flow: wrap;
+    justify-content: center;
+	} 
   .header__input, .header__boton {
     margin-bottom: 1rem;
   }
-  
-  .header__icono{
-  display: none;}
 }
 
+@media screen and (min-width: 780px) and (max-width: 940px ) {
+    
+  .header {
+    flex-direction: column;
+  }
+  .header__icono{
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 941px) and (max-width: 1024px){
+  .header__icono{
+    display: none;
+  }
+}
 
