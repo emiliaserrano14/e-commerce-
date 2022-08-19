@@ -1,0 +1,74 @@
+.footer--login{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5rem;
+    background: #dadada;
+   
+  }
+  
+  .footer__container--login{
+      display: flex;
+      align-items: center;
+      width: 46%;
+  }
+  
+  #footer__lista--login{
+      display: grid;
+      justify-items: stretch;
+      width: 25%;
+     
+  }
+  
+  #footer__lista--login a {
+      text-decoration: none;
+      color: #333333;
+      line-height: 30px;
+  }
+  
+  #footer__contacto--login{
+      display: inline-grid;
+      justify-items: center;
+      width: 44%;
+  }
+  
+  .footer__logo--login{
+      margin-right: 12rem;
+      margin-left: 2rem;
+  }
+  
+  .footer__titulo--login{
+     font-size: 1.2rem;
+     color: #333333;
+  }
+  
+  .footer__nombre--login, .footer__mensaje--login{
+     width: 200px;
+     margin-bottom: 1.5rem;
+     border: none;
+     border-bottom: solid 1px #128990;
+  
+  }
+  
+  .footer__nombre--login:hover, .footer__mensaje--login:hover {
+      border: solid 1px #128990;
+  }
+  
+  .footer__boton--login{
+      background: #128990;
+      width: 150px;
+      height: 25px;
+      border: none;
+      border-bottom: 2px solid #333333;
+      cursor: pointer;
+      margin-bottom: 1rem;    
+  }
+  
+  .footer__parrafo--login {
+      display: flex;
+      height: 50px;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  

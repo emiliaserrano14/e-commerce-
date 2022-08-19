@@ -1,0 +1,50 @@
+.body{
+    background-color: #eee;
+}
+
+.header__input--login {
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.header__login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contenedor__login {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.input__titulo {
+    margin-top: 5rem;
+    font-size: 20px;
+}
+
+.main__input--login{
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    border-bottom: 1px solid #dad;
+    width: 423px;
+    height: 63px;
+}
+
+.main__boton {
+  
+    width: 423px;
+    height: 63px;
+    border: none;
+    background: #2A7AE4;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}

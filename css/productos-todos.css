@@ -1,0 +1,12 @@
+.productos__boton--todos{
+   
+    border: none;
+    color: #333333;
+    height: 51px;
+    width: 163px;
+    Padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #2A7AE4;
+}
